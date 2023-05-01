@@ -942,3 +942,12 @@ textarea {
   position: relative;
   top: 200px;
 } */
+
+
+#nav-menu{
+  border: none;
+}
+
+.nav-link.home{
+  border: none;
+}
