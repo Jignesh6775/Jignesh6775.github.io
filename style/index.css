@@ -293,11 +293,11 @@ textarea {
 @media only screen and (max-width: 37.5em) {
   #profile img{
     position: static;
-    margin: 20rem 0 0 11rem;
+    margin: 20rem 0 0 9rem;
   }
 
   .home-hero__content {
-    padding: 19rem 0 13rem 0;
+    padding: 10rem 0 13rem 0;
     margin: auto;
     position: static;
     transform: translate(0, 0);
@@ -861,6 +861,7 @@ textarea {
   /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .skillCards div img{
   height: 70px;
