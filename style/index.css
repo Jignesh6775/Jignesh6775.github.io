@@ -172,6 +172,7 @@ textarea {
 .btn--med {
   padding: 1.5rem 5rem;
   font-size: 1.6rem;
+  margin: 10px;
 }
 .btn--theme {
   background: #facf0f;
@@ -270,15 +271,31 @@ textarea {
 .home-hero__social-icon {
   width: 100%;
 }
+
+#profile img{
+  position: absolute;
+  width: 25rem;
+  max-width: 28rem;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  top: 18%;
+  left: 41%;
+}
+
 .home-hero__content {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 90rem;
   width: 92%;
 }
 @media only screen and (max-width: 37.5em) {
+  #profile img{
+    position: static;
+    margin: 20rem 0 0 11rem;
+  }
+
   .home-hero__content {
     padding: 19rem 0 13rem 0;
     margin: auto;
@@ -653,8 +670,8 @@ textarea {
   color: #facf0f;
 }
 .header__logo-img-cont {
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50px;
   overflow: hidden;
   margin-right: 1.5rem;
