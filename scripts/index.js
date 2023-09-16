@@ -40,11 +40,3 @@ headerLogoConatiner.addEventListener('click', () => {
 ////////// Github calender responsiveness/////////////
 GitHubCalendar(".calendar", "Jignesh6775");
 GitHubCalendar(".calendar", "Jignesh6775", { responsive: true });
-
-
-///////////// Download and open resume in new tab///////////////
-document.getElementById("resume-button-1").onclick = () => {
- console.log("Download") 
-  // window.open("https://drive.google.com/file/d/1-C3aFdI0V3QnkJKB4LxkPndispTXopJ9/view?usp=drive_link");
-  
-}

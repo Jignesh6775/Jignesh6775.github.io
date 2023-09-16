@@ -16,18 +16,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
     rel="stylesheet" />
 
-  <!--//////////// Global site tag (gtag.js) - Google Analytics //////////-->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD9ESD1D9K"></script>
-  <script>
-    window.dataLayer = window.dataLayer || []
-    function gtag() {
-      dataLayer.push(arguments)
-    }
-    gtag('js', new Date())
-
-    gtag('config', 'G-QD9ESD1D9K')
-  </script>
-
 </head>
 
 <body>
@@ -36,8 +24,7 @@
     <div class="header__content">
       <div class="header__logo-container">
         <div class="header__logo-img-cont">
-          <img src="./images/Profile-logo.gif" alt="Jignesh Vadiyatar Logo Image"
-            class="header__logo-img home-img" />
+          <img src="./images/Profile-logo.gif" alt="Jignesh Vadiyatar Logo Image" class="header__logo-img home-img" />
         </div>
         <span class="header__logo-sub">Jignesh Vadiyatar</span>
       </div>
@@ -58,9 +45,11 @@
           <li class="header__link-wrapper">
             <a style="background: white" href="./#contact" class="header__link nav-link contact"> Contact </a>
           </li>
-          <li id="resume-button-1" class="header__link-wrapper" id="resume-link-1">
-            <a href="./Jignesh Vadiyatar-Full Stack Web Developer.pdf" download="Jignesh-Vadiyatar-Full Stack Web Developer.pdf"
-               class="header__link nav-link resume"> Resume </a>
+          <li id="resume-button-1" class="header__link-wrapper">
+            <a href="Jignesh Vadiyatar-Full Stack Web Developer.pdf"
+              download="Jignesh Vadiyatar-Full Stack Web Developer.pdf" target="_blank"
+              class="header__link nav-link resume" id="resume-link-1"> Resume
+            </a>
           </li>
         </ul>
         <div class="header__main-ham-menu-cont">
@@ -95,6 +84,12 @@
 
           <li class="header__sm-menu-link">
             <a href="./#contact"> Contact </a>
+          </li>
+          <li id="resume-button-2" class="header__link-wrapper">
+            <a href="Jignesh Vadiyatar-Full Stack Web Developer.pdf" target="_blank"
+              download="Jignesh Vadiyatar-Full Stack Web Developer.pdf" id="resume-link-1"
+              class="header__link nav-link resume"> Resume
+            </a>
           </li>
         </ul>
       </div>
@@ -167,7 +162,8 @@
           <div class="about__content-details">
             <p id="user-detail-intro" class="about__content-details-para">
               I'm a dynamic and ambitious <strong>Full Stack Web Developer</strong>, with a strong foundation in
-              both solo and collaborative project development. Possesses a keen aptitude for harnessing <strong>Generative AI</strong>
+              both solo and collaborative project development. Possesses a keen aptitude for harnessing
+              <strong>Generative AI</strong>
               and quickly mastering new tech stacks. Demonstrates a
               blend of technical prowess and adaptable teamwork,
               poised to excel in creating innovative web solutions.
@@ -180,9 +176,9 @@
             </p>
           </div>
           <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
-          <span id="resume-button-2"><a class="btn btn--med btn--theme dynamicBgClr"
-              href="./Jignesh-Vadiyatar-Resume.pdf" download="Jignesh-Vadiyatar-Resume.pdf" target="_blank"
-              id="resume-link-2">Download Resume</a></span>
+          <span id="resume-button-3"><a href="Jignesh Vadiyatar-Full Stack Web Developer.pdf" target="_blank"
+            download="Jignesh Vadiyatar-Full Stack Web Developer.pdf" class="btn btn--med btn--theme dynamicBgClr" id="resume-link-2">Download
+              Resume</a></span>
 
         </div>
 
@@ -263,8 +259,8 @@
               <p>Gen-Ai</p>
             </div>
 
-            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name"
-                src="./images/aws.png" alt="html">
+            <div class="skills__skill skills-card"><img class="skills-card-img skills-card-name" src="./images/aws.png"
+                alt="html">
               <p>AWS</p>
             </div>
 
@@ -304,15 +300,15 @@
               our AI. It was a group project built and executed in span of 48 hours.
             </p>
             <p class="projects__row-content-desc project-description">
-             <strong> <span>React |</span>
-              <span>Redux |</span>
-              <span>Chakra-UI |</span>
-              <span>Tailwind CSS |</span>
-              <span>Node.js |</span>
-              <span>Express.js |</span>
-              <span>MongoDB |</span>
-              <span>Open-Ai</span></strong>
-             </p>
+              <strong> <span>React |</span>
+                <span>Redux |</span>
+                <span>Chakra-UI |</span>
+                <span>Tailwind CSS |</span>
+                <span>Node.js |</span>
+                <span>Express.js |</span>
+                <span>MongoDB |</span>
+                <span>Open-Ai</span></strong>
+            </p>
             <div class="btndiv">
               <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link'
                 href='https://github.com/Jignesh6775/Digitron' target='_blank'>See Live</a>
@@ -330,19 +326,20 @@
           <div class="projects__row-content">
             <h3 class="projects__row-content-title project-title">Wrike Clone</h3>
             <p class="projects__row-content-desc project-description">
-              This is a clone of a project management website called Wrike. You can create and manage your projects here.
+              This is a clone of a project management website called Wrike. You can create and manage your projects
+              here.
               It was an individual project built and executed in 5 days.
             </p>
             <p class="projects__row-content-desc project-description">
               <strong> <span>HTML5 |</span>
-               <span>CSS3 |</span>
-               <span>JavaScript |</span>
-               <span>O-Auth |</span>
-               <span>Node.js |</span>
-               <span>Express.js |</span>
-               <span>MongoDB</span>
+                <span>CSS3 |</span>
+                <span>JavaScript |</span>
+                <span>O-Auth |</span>
+                <span>Node.js |</span>
+                <span>Express.js |</span>
+                <span>MongoDB</span>
               </strong>
-              </p>
+            </p>
             <div class="btndiv">
               <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link'
                 href='https://profound-basbousa-ffaf25.netlify.app' target='_blank'>See Live</a>
@@ -366,12 +363,12 @@
             </p>
             <p class="projects__row-content-desc project-description">
               <strong> <span>HTML5 |</span>
-               <span>CSS3 |</span>
-               <span>JavaScript |</span>
-               <span>Firebase |</span>
-               <span>Json Server</span>
+                <span>CSS3 |</span>
+                <span>JavaScript |</span>
+                <span>Firebase |</span>
+                <span>Json Server</span>
               </strong>
-              </p>
+            </p>
             <div class="btndiv"><a class='btn btn--med btn--theme dynamicBgClr project-deployed-link'
                 href='https://lucky-concha-d397ad.netlify.app/index.html' target='_blank'>See Live</a>
               <a class='btn btn--med btn--theme dynamicBgClr project-github-link'
@@ -392,15 +389,15 @@
               group project built and executed in 5 days.
             <p class="projects__row-content-desc project-description">
               <strong> <span>HTML5 |</span>
-               <span>CSS3 |</span>
-               <span>JavaScript |</span>
-               <span>O-Auth |</span>
-               <span>Google calendar |</span>
-               <span>Node.js |</span>
-               <span>Express.js |</span>
-               <span>MongoDB</span>
+                <span>CSS3 |</span>
+                <span>JavaScript |</span>
+                <span>O-Auth |</span>
+                <span>Google calendar |</span>
+                <span>Node.js |</span>
+                <span>Express.js |</span>
+                <span>MongoDB</span>
               </strong>
-              </p>
+            </p>
             <div class="btndiv">
               <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link'
                 href='https://thriving-raindrop-11b45e.netlify.app/' target='_blank'>See Live</a>
@@ -422,10 +419,10 @@
             </p>
             <p class="projects__row-content-desc project-description">
               <strong> <span>HTML5 |</span>
-               <span>CSS3 |</span>
-               <span>JavaScript</span>
+                <span>CSS3 |</span>
+                <span>JavaScript</span>
               </strong>
-              </p>
+            </p>
             <div class="btndiv">
               <a class='btn btn--med btn--theme dynamicBgClr project-deployed-link'
                 href='https://ephemeral-sherbet-384073.netlify.app/' target='_blank'>See Live</a>
@@ -529,7 +526,8 @@
         <div class="main-footer__row main-footer__row-2">
           <h2 class="heading heading-sm text-lt">Jignesh Vadiyatar</h2>
           <h1 id="contact-phone"><a href="tel:+918153887293">Mob: +91 8153887293 | +91 8732925823</a></h1>
-          <h1 id="contact-email"><a href="mailto:jigsvadiyatar6557@gmail.com">Email: jigsvadiyatar6557@gmail.com</a></h1>
+          <h1 id="contact-email"><a href="mailto:jigsvadiyatar6557@gmail.com">Email: jigsvadiyatar6557@gmail.com</a>
+          </h1>
         </div>
       </div>
 
@@ -547,8 +545,20 @@
 </body>
 <script src="./scripts/index.js"></script>
 <script>
-  GitHubCalendar(".calendar", "Jignesh6775");
-  GitHubCalendar(".calendar", "Jignesh6775", { responsive: true });
+  // GitHubCalendar(".calendar", "Jignesh6775");
+  // GitHubCalendar(".calendar", "Jignesh6775", { responsive: true });
+
+  ///////////// Download and open resume in new tab///////////////
+  let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
+  let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
+  let resume3 = document.getElementById("resume-button-3").addEventListener("click", NewTab)
+
+  function NewTab() {
+    window.open(
+      "https://drive.google.com/file/d/1-C3aFdI0V3QnkJKB4LxkPndispTXopJ9/view?usp=drive_link",
+      "_blank"
+    );
+  }
 
 </script>
 
