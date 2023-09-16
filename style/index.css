@@ -863,20 +863,38 @@ textarea {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.skillCards div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .skillCards div img{
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
+}
+
+.skillCards div p{
+  text-align: center;
 }
 .skills__skill {
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem 0.5rem 2.5rem;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
   font-weight: 600;
   color: #666;
+  transition: transform 0.3s;
 }
+
+.skills__skill:hover{
+  transform: translateY(-3px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .mouse {
   width: 25px;
   height: 40px;
@@ -899,6 +917,7 @@ textarea {
   animation: wheel 1.3s infinite;
   -webkit-animation: wheel 1.3s infinite;
 }
+
 @keyframes wheel {
   to {
     opacity: 0;
