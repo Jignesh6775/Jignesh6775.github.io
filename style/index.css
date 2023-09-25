@@ -324,6 +324,11 @@ textarea {
     grid-template-columns: 1fr;
     grid-gap: 8rem;
   }
+  .about__content-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .about__content-title {
   font-weight: 700;
@@ -341,6 +346,7 @@ textarea {
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 .about__content-details-para--hl {
   font-weight: 700;
