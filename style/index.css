@@ -294,6 +294,7 @@ textarea {
   #profile img{
     position: static;
     margin: 20rem 0 0 9rem;
+    left: 45%;
   }
 
   .home-hero__content {
@@ -320,6 +321,10 @@ textarea {
   grid-gap: 10rem;
 }
 @media only screen and (max-width: 56.25em) {
+  #profile img{
+    left: 45%;
+  }
+
   .about__content {
     grid-template-columns: 1fr;
     grid-gap: 8rem;
@@ -346,7 +351,7 @@ textarea {
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 1rem;
-  text-align: justify;
+  text-align: left;
 }
 .about__content-details-para--hl {
   font-weight: 700;
@@ -368,6 +373,10 @@ textarea {
   margin-bottom: 11rem;
 }
 @media only screen and (max-width: 56.25em) {
+  .about__content-details-para {
+    text-align: center;
+  }
+
   .projects__row {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
@@ -407,10 +416,25 @@ textarea {
   font-weight: 700;
   font-size: 2.8rem;
   margin-bottom: 2rem;
+  display: flex;
+  align-items: baseline;
 }
+
+.projects__row-content-title span{
+  margin-left: 1rem;
+  font-weight:100;
+  font-size: 1.8rem;
+}
+
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-title {
     font-size: 2.4rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects__row-content-title span{
+    margin-left: 0rem;
   }
 }
 .projects__row-content-desc {
